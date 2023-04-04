@@ -4,6 +4,7 @@ public class parameter {
 	
 		@Test
 		public void test() {
+			System.out.println("karan akrati has updated");
 			String Url=System.getProperty("url");//same u can pass in parameter which is present in left side
 			String Env=System.getProperty("Env");
 			String browser=System.getProperty("browser");
